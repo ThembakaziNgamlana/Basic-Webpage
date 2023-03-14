@@ -1,0 +1,78 @@
+.body{
+    background-color: burlywood;
+}
+.intro{
+    background-color: aqua;
+    display: flex;
+    padding: 1em;
+}
+
+.intro_img{
+    width:200px;
+    height:100px;
+    float: right;
+    margin: auto;
+}
+.dubai_city{
+    background-color: blueviolet;
+}
+.dubai_content{
+    display: flex;
+    padding: 1em;
+}
+p{
+    padding: 1em;
+}
+.language{
+    background-color: red;
+}
+table, td, th,tr{
+    border: 2px solid black;
+    border-collapse: collapse;
+    
+}
+table {
+    margin: 1em;
+    width: 90%;
+}
+
+.language_content{
+    padding-bottom: 1em;
+}
+h2 {
+    text-align: center;
+}
+
+/* Historical Section style*/
+.places{
+    background-color: royalblue;
+}
+.places_content {
+    display:flex;
+}
+.places_img {
+    float: right;
+    margin: auto;
+    height: 150px;
+    width: 10em;
+}
+/* 
+.hope{
+    background-color: aquamarine;
+}
+
+.museum{
+    background-color: blueviolet;
+}
+.city_hall{
+    background-color: yellowgreen;
+} */
+
+@media(min-width:960) { 
+    .places { 
+         padding:1em;  
+         margin:1em;  
+         margin-bottom: 0.5 em; 
+         border-radius: 0.5 em;  
+         display: flex;
+    }
