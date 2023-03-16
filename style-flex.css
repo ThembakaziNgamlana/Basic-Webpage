@@ -1,30 +1,35 @@
-.body{
-    background-color: burlywood;
-}
+
 .intro{
-    background-color: aqua;
+    background-color: #ffcdb2;
     display: flex;
     padding: 1em;
 }
-
+h1{
+    text-align:center;
+    padding-top: 70px;
+    padding-left: 50px;
+}
 .intro_img{
-    width:200px;
-    height:100px;
+    width:400px;
+    height:300px;
     float: right;
     margin: auto;
 }
 .dubai_city{
-    background-color: blueviolet;
+    background-color: #ffcdb2;
 }
-.dubai_content{
-    display: flex;
-    padding: 1em;
-}
+
+/* .dubai_img{
+    width:500px;
+    height:700px;
+} */
+
+
 p{
     padding: 1em;
 }
 .language{
-    background-color: red;
+    background-color: #ffcdb2;
 }
 table, td, th,tr{
     border: 2px solid black;
@@ -43,36 +48,42 @@ h2 {
     text-align: center;
 }
 
-/* Historical Section style*/
 .places{
-    background-color: royalblue;
+    background-color: #ffcdb2;
 }
-.places_content {
-    display:flex;
-}
+
+
 .places_img {
     float: right;
     margin: auto;
     height: 150px;
     width: 10em;
 }
+.places h2{
+    text-align:left;
+}
+
 /* 
-.hope{
-    background-color: aquamarine;
-}
-
-.museum{
-    background-color: blueviolet;
-}
-.city_hall{
-    background-color: yellowgreen;
-} */
-
-@media(min-width:960) { 
-    .places { 
-         padding:1em;  
-         margin:1em;  
-         margin-bottom: 0.5 em; 
-         border-radius: 0.5 em;  
-         display: flex;
+   .places_content {
+    display:flex;
+}  */
+@media(min-width:960px){
+    .dubai_content{
+        display: flex;
+        padding: 1em;
     }
+    
+}
+ 
+ @media(min-width:960px) {
+      .body{
+        background-color:yellow;
+    } 
+
+    .places_content {
+        display:flex;
+    } 
+    
+}   
+
+    
