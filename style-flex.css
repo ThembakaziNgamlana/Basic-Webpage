@@ -77,7 +77,7 @@ h2 {
  
  @media(min-width:960px) {
       .body{
-        background-color:yellow;
+        background-color: #ffcdb2;
     } 
 
     .places_content {
