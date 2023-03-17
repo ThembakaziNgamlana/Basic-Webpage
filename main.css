@@ -1,0 +1,14 @@
+.places_col{
+display:flex;
+}
+@media(min-width:960px) {
+    .body{
+      background-color: #ffcdb2;
+  } 
+
+  .places_col{
+    display:flex;
+    }
+  
+} 
+
