@@ -1,0 +1,37 @@
+body{
+    background-color: aqua;
+    background-image: url(back.avif);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.webpage1{
+ background-color: brown;
+ text-align:center;
+ width: 100px;
+padding:20px;
+margin: 20px;
+position: relative;
+}
+.webpage2{
+ background-color: yellow;
+ text-align:center;
+ font-size: larger;
+ width: 100px;
+ padding:20px;
+ margin: 20px;
+ position:relative;
+
+}
+.my-links{
+    display: flex;
+    -moz-box-align: center;
+}
+.my-img{
+  width:200px;
+  height:400px;
+  
+}
+.my-img:hover {
+    opacity: 1.0;
+  }
