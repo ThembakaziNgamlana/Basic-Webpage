@@ -1,0 +1,62 @@
+body{
+    /* background-color: rgb(255, 0, 234); */
+    background-image: url(./images/landing-img.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin: 0;
+    padding: 50px;
+    padding-top: 100px;
+    text-align: center;
+}
+h1{
+  text-align: center;
+  color: beige;
+}
+
+p{
+  color: beige;
+  position: relative;
+  text-align: center;
+}
+.webpage1{
+  background-color: yellowgreen; 
+ color: beige;
+ text-align:center;
+ width: 300px;
+padding:20px;
+margin: 20px; 
+position: relative;
+}
+.webpage2{
+  color: beige;
+ background-color: royalblue; 
+ text-align:center;
+ font-size: larger;
+ width: 300px;
+ padding:20px;
+ margin: 20px;
+ position:relative;
+
+}
+ .my-links{
+    display: flex;
+    -moz-box-align: center;
+    text-align: center;
+    display: flex;
+}
+.my-img{
+  width:200px;
+  height:400px;
+  
+}
+.my-img:hover {
+    opacity: 1.0;
+  }
+  
+
+  @media(min-width:960px) {
+    .my-links {
+      display:flex;
+  } 
+  
+}   
