@@ -2,11 +2,12 @@ body{
     /* background-color: rgb(255, 0, 234); */
     background-image: url(./images/landing-img.jpg);
     background-repeat: no-repeat;
-    background-size: 100%;
-    margin: 0;
-    padding: 50px;
-    padding-top: 100px;
-    text-align: center;
+    background-size: cover;
+    background-attachment:fixed;
+    background-position: center;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    margin:0;
 }
 h1{
   text-align: center;
@@ -43,20 +44,37 @@ position: relative;
     -moz-box-align: center;
     text-align: center;
     display: flex;
+    margin: 0;
+    /* padding-right: px; */
 }
 .my-img{
   width:200px;
   height:400px;
   
 }
-.my-img:hover {
+/* .my-img:hover {
     opacity: 1.0;
+  } */
+  /* @media(min-width: 600px) {
+    body{
+     background-image:url(./images/landing-img.jpg); 
+   background-size:100%;
+   width: 100%;
+   height: 100%;
+    }
+    
+
   }
-  
+
+
+
+*/
 
   @media(min-width:960px) {
-    .my-links {
-      display:flex;
-  } 
+ .my-links{
+  padding-left: 200px;
+ }
   
-}   
+
+  
+}    
