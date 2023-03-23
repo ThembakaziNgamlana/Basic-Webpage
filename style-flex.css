@@ -1,13 +1,8 @@
 
-/* .intro{
-    /* background-color: #ffcdb2; */
-    /* display: flex;
-    padding: 1em;
-} */ */
-h1{
-    text-align:center;
-    padding-top: 70px;
-    padding-left: 50px;
+
+.intro_name{
+ padding-top: 30px;
+ text-align: center;
 }
 .intro_image{
     width:400px;
@@ -16,7 +11,7 @@ h1{
     margin: auto;
 }
 body{
-    background-color: #ffafcc;
+    background-color:#ffafcc;
 }
 
 
@@ -84,6 +79,8 @@ h2 {
 @media(min-width:960px){
   .intro{
     display:flex;
+   
+
   } 
 
 }
