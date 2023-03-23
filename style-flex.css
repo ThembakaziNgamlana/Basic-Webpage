@@ -2,7 +2,18 @@
 
 .intro_name{
  padding-top: 30px;
- text-align: center;
+ padding-left: 50px;
+ margin-left: 150px;
+ /* text-align: center; */
+ font-size: 2.5rem;
+ text-align:center; 
+ /* text-shadow: #ffafcc; */
+  position: relative;  
+ top:80px;
+
+
+
+
 }
 .intro_image{
     width:400px;
@@ -18,20 +29,28 @@ body{
 
 
 .dubai_city{
-    /* background-color: #ffcdb2; */
-}
-
-/* .dubai_img{
-    width:500px;
-    height:700px;
-} */
-
+   padding-left: 40px;
+   padding-right: 40px;
+} 
 
 p{
     padding: 1em;
 }
+.dubai_city h3{
+    padding-left: 10px;
+}
+
+
+.dubai_city h2{
+    padding-top: 20px;
+}
+
+
+
 .language{
-    /* background-color: #ffcdb2; */
+  padding-left: 40px;
+  padding-right: 40px;
+
 }
 table, td, th,tr{
     border: 2px solid black;
@@ -52,6 +71,11 @@ h2 {
 
 .places{
     /* background-color: #ffcdb2; */
+    padding-left: 40px;
+  padding-right: 40px;  
+}
+.dubai_content p{
+    padding-right: 200px;
 }
 
 
@@ -84,7 +108,33 @@ h2 {
   } 
 
 }
+@media(max-width:43em){
+    .intro_name{
+        /* padding-top: 30px;
+        padding-left: 50px; */
+         margin-left: 30px; 
+        /* text-align: center; */
+        /* font-size: 2.5rem; */
+        text-align:center; 
+        /* text-shadow: #ffafcc; */
+         position: relative;  
+        top:20px; 
+       /* padding-right: 80px; */
+       /* padding-left: 5px; */
+       
+       
+       
+    }
+       .intro_image{
+        width:300px;
+        height:200px;
+        /* float: right;
+        margin: auto; */
+    }
 
+
+
+}
 
 
 
